@@ -1,0 +1,11 @@
+[package]
+name = "lau-combinatorics"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/SuperInstance/lau-combinatorics"
+description = "Combinatorics library — counting structures, graph theory, and enumeration"
+
+[dependencies]
+nalgebra = "0.35"
+serde = { version = "1", features = ["derive"] }
